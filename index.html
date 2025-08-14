@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="img/icons8-galaxy.png">
+        <script src="./javascript.js"></script>
+        <title>Nebulae Errantes Odinis Studia | Sign-up Form</title>
+    </head>
+
+    <body>
+        <div class="containerMain">
+            <div id="leftContainer">
+                <img id="logo" src="img/NEOS_logo.png">
+            </div>
+
+            <div id="rightContainer">
+                <div id="hero">
+                    <h1>Join the cosmic Journey</h1>
+                    <h1>Explore deep Space</h1>
+                    <h1>Shape the Cosmos</h1>
+                    <h4>Per aspera ad Astra</h4>
+                </div>
+                
+                <form action="#" method="post">
+                    <fieldset>
+                        <div class="formDetails">
+                            <label for="firstName">*First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Enter Name" required>
+                        </div>
+
+                        <div class="formDetails">
+                            <label for="lastName">*Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Enter Surname" required>
+                        </div>
+
+                        <div class="formDetails">
+                            <label for="userEmail">*Email</label>
+                            <input type="email" id="userEmail" name="email" placeholder="🛸🛸🛸@mail.com" required>
+                        </div>
+
+                        <div class="formDetails">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number">
+                        </div>
+
+                        <div class="formDetails">
+                            <label for="password">*Password</label>
+                            <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 Characters" required>
+                        </div>
+                            
+                        <div class="formDetails">
+                            <label for="confirmPassword">*Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-type Password" onkeyup="checkPasswordMatch()" required>
+                            <span id="passwordMatchMessage"></span>
+                        </div>
+                    </fieldset>    
+
+                    <div id="accountCreation">
+                        <button type="submit" id="createAccount">Enter at Warp speed</button>
+                        <p>Already have an account? <a href="#">Log in!🪐</a></p>
+                        <p>Created by <a href="https://github.com/ArsenLeNaslov" target="_blank" rel="noopener noreferrer">ArsenLeNaslov</a> for The Odin Project 🎴 </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
