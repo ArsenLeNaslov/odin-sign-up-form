@@ -8,4 +8,5 @@ Logo and background image lazily generated with Microsoft Copilot
 
 https://arsenlenaslov.github.io/odin-sign-up-form/
 
-<img width="1906" height="913" alt="image" src="https://github.com/user-attachments/assets/1b511a3a-0830-4e0a-9dd1-85b2e901e987" />
+<img width="1721" height="832" alt="NEOS" src="https://github.com/user-attachments/assets/e3ec568c-31ff-4780-aaaa-bdf2859afbb5" />
+
